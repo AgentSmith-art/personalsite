@@ -6,6 +6,18 @@ body
   background-color: #aacfcf;
 }
 
+.description
+{
+  font-size: 0.75rem;
+  color: #3797a4;
+  font-family: 'Merriweather', serif;
+
+}
+
+.name
+{
+margin: 20px auto 20px auto;
+}
 hr
 {
       border-style: none;
@@ -27,6 +39,7 @@ hr
 }
 .seconddiv
 {
+
   font-family: 'Great Vibes', cursive;
   color: #3797a4;
 }
