@@ -3,7 +3,12 @@ body
   margin: 0;
   font-family: serif;
   text-align: center;
-  background-color: #aacfcf;
+  background-color: #DDDCC0;
+}
+
+.navbar-nav
+{
+  margin-left: auto;
 }
 
 .description
@@ -14,28 +19,27 @@ body
 
 }
 
-.name
-{
-margin: 20px auto 20px auto;
-}
-hr
-{
-      border-style: none;
-      border-top-style: dotted;
-      width: 7%;
-      border-width: 5px;
-      border-color: #EAF6F6;
-}
-
 .fourthdiv
 {
   margin-bottom: 10px;
 }
+.top-image
+{
+  height: auto;
+  width: 100%;
+}
 .topdiv
 {
-
-  position: relative;
-  background-color:#aacfcf;
+  position: relative; 
+}
+.heading
+{
+  position: absolute;
+  font-family: sail,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  top: 43%;
+  left: 28%;
 }
 .seconddiv
 {
@@ -45,23 +49,15 @@ hr
 }
 .thirddiv
 {
-
   position: relative;
   right: 180px;
 }
-
 h1
 {
   font-size: 4rem;
 }
-h3
+h2 
 {
-  color: #3797a4;
-  font-family: 'Merriweather', serif;
-}
-h2
-{
-
   color: #3797a4;
   font-family: 'Merriweather', serif;
 }
@@ -71,13 +67,17 @@ p
   color: black;
   font-family: 'Merriweather', serif;
 }
+.skills
+{
+  padding: 20px 40px;
+}
 .skill-row
 {
   padding: 1%;
   line-height: 2;
   text-align: left;
   margin: auto;
-width: 50%;
+  width: 50%;
 }
 .code-image
 {
@@ -93,10 +93,15 @@ width: 50%;
 }
 .middle-container
 {
-  background-color:#e8e4e1;
+  background-color:#DDDCC0;
   line-height: 2;
   margin: auto;
   text-align: center;
+}
+.profile img
+{
+  height: 150px;
+  width: 150px;
 }
 .profile
 {
@@ -107,7 +112,7 @@ width: 50%;
 .bottom-container
 {
   padding: 40px 0 20px;
-  background-color: #2fc4b2;
+  background-color: #7D9B92;
 }
 
 
@@ -117,29 +122,7 @@ width: 50%;
   margin: 40px auto 40px auto;
 }
 
-.btn {
-  margin-bottom: 40px;
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#2fc4b2;
-	border-radius:40px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial
-	font-size:20px;
-	padding:10px 14px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
-}
-.btn:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
-}
-.btn:active {
-	position:relative;
-	top:1px;
-}
+
 
 .bottom-container p{
   margin-top: 40px;
@@ -150,13 +133,7 @@ a:hover{
   color: #e8e4e1;
 }
 
-a
-{
-text-decoration: none;
-padding: 0px 20px 0px 20px;
-color:  #3797a4;
-font-family: 'Merriweather' ,serif;
-}
+
 .copyright
 {
   color: #e8e4e1;
