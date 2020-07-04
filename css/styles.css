@@ -133,7 +133,13 @@ a:hover{
   color: #e8e4e1;
 }
 
+a
+{
 
+padding: 0px 20px 0px 20px;
+color:  #3797a4;
+
+}
 .copyright
 {
   color: #e8e4e1;
